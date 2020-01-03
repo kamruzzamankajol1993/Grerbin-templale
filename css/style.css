@@ -1,0 +1,295 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+    font-family: auto;
+}
+.navbar-dark .navbar-toggler {
+    color: red;
+    border-color: red;
+    background: black;
+}
+div#collapsibleNavbar ul li a:hover {
+    color: red;
+	transition: all 1s;
+}
+/*Secound Section Started*/
+.wrapp{
+	width: 100%;
+    height: 430px;
+	display:block;
+	position:relative;
+	background-color:#000;
+}
+.wrapp::before {
+	content:'';
+    position: absolute;
+	top:0px;
+	height:430px;
+	width:100%;
+    background:url(../images/ttt.jpg);
+    background-size: cover;
+    opacity: 0.5;
+	z-index:1;
+}
+.wrapp .col-md-12 {
+    margin-left: 300px;
+    margin-top: 70px;
+}
+.wrapp h2 {
+    font-size: 36px;
+    color: #ff003b;
+    font-weight: bold;
+    line-height: 30px;
+}
+.wrapp p {
+    line-height: 0px;
+    margin-top: 25px;
+    color: white;
+}
+.wrapp button.btn.btn-danger {
+    margin-top: 35px;
+}
+/*Secound Section End*/
+/*Card Section Start*/
+.col-md-12.card-section {
+    margin-top: 50px;
+}
+.card-section i {
+    padding: 13px;
+    font-size: 45px;
+    color: #BD464C;
+}
+.card-section p {
+    padding: 12px;
+    padding-top: 5px;
+}
+.card-section .col-md-6 {
+    padding: 10px;
+}
+.card-section a {
+    text-decoration: none;
+    color: #BD464C;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+/*.card:hover {
+    background: #e6d9d973;
+    margin-top: -20px;
+    transition: all 1s;
+}*/
+.card-section .col-md-4 {
+    position: absolute;
+    margin-left: 750px;
+    margin-top: 115px;
+}
+/*Card Section Start*/
+/*Promise to you start*/
+.promise-you {
+    background: #F4F5F5;
+    margin-top: 40px;
+}
+.promise-you h2 {
+    font-size: 25px;
+    margin: 20px 0px;
+}
+.promise-you span img {
+    margin: 20px 0px;
+}
+img.doct-photo{
+    margin: 30px 0px;
+}
+.promise-you h3 {
+    font-size: 20px;
+    color: red;
+}
+.slide-area{
+	height:600px;
+	width:100%;
+}
+.slide-area h4{
+    margin-top: 40px;
+    margin-bottom: -20px;
+}
+.pt-3{
+	height:500px;
+	background-color:#fff;
+}
+.owl-carousel{
+	position:relative;
+}
+.slide-area button.btn.btn-danger {
+    margin-top: 18px;
+}
+/*Promise to you End*/
+/*Form Section Start*/
+.form-sec{
+	width: 100%;
+    height: 450px;
+	position:relative;
+	background-color:red;
+}
+.form-sec::before{
+	content:'';
+	position:absolute;
+    background-image: url(../images/form-bg.jpg);
+	top:0px;
+	height:450px;
+	width:100%;
+    background-size: cover;
+    opacity: .7;
+	z-index:1;
+}
+.form-sec input {
+    padding: 8px 100px;
+    background: white;
+    color: black;
+}
+.form-sec textarea {
+    padding: 8px 110px;
+    background: white;
+    color: black;
+}
+.form-sec h2 {
+    margin-bottom: 25px;
+    color: black;
+    margin-top: 36px;
+}
+.form-sec button.btn.btn-light {
+    height: 46px;
+    width: 6;
+    width: 382px;
+    background: #FFFFFF;
+    color: black;
+    font-weight: bold;
+}
+/*Form Section end*/
+/*Client Revew Section Start*/
+img.img-icon {
+    width: 30px;
+}
+.client-revew-s h2:last-child {
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: -31px;
+}
+.col-md-12.client-revew-s {
+    margin-top: 40px;
+}
+.col-md-12.client-revew-s h2 {
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.col-md-12.client-revew-s p {
+    padding: 5px;
+    text-align: justify;
+}
+.col-md-3.float-left.card-css {
+    margin: 0px 45px;
+}
+.for-underli{
+    height: 5px;
+    width: 30px;
+    background: red;
+}
+.for-underli.float-left {
+    margin: 3px;
+}
+.col-md-12.for-underl {
+    margin-left: 459px;
+    margin-top: 20px;
+}
+/*Client Revew Section End*/
+/*News Section Start*/
+.container.news-section {
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+.container.news-section h2 span{
+    margin-bottom: 50px;
+	font-weight: bold !important;
+}
+.container.news-section p {
+    margin: 13px 13px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.container.news-section span {
+	margin-left: 92px;
+}
+.container.news-section h2 {
+    font-size: 23px;
+    line-height: 16px;
+    font-weight: initial;
+}
+.news-section a:hover {
+    color: red;
+}
+h2.news-hh {
+    margin-bottom: 60px;
+	font-weight:bold;
+}
+.news-section a {
+    text-decoration: none !important;
+    font-weight:bold;
+    line-height: 50px;
+    font-size: 17px;
+}
+.container.news-section i {
+    margin-right: 9px;
+}
+/*News Section End*/
+/*footer Section Start*/
+.col-md-8.text-center.for-bg {
+    background: #f1f1f1;
+    height: 140px;
+    position: absolute;
+    bottom: -50px;
+    right: 180px;
+}
+input[type="email"] {
+    position: relative;
+    top: 50px;
+    padding: 10px 50px;
+    border: 1px solid black;
+    right: 100px;
+}
+.footer-section  button.btn.btn-danger {
+    position: absolute;
+    top: 50px;
+    padding: 10px 40px;
+    left: 431px;
+}
+.footer-section {
+    background: #2B2B2B;
+    height: 550px;
+}
+.footer-section .col-md-3 {
+    margin-top: 130px;
+    color: white;
+}
+.footer-section a {
+    text-decoration: none !important;
+    color: white;
+}
+.footer-section p {
+    margin: 0px;
+    padding: 0px;
+    line-height: 28px;
+}
+.footer-section p a:hover{
+	color:red;
+	transition: all 1s;
+}
+.footer-section h2 {
+	margin-bottom: 34px;
+}
+.fast-d {margin-bottom: 18px !important;}
+.footer-icon i {
+    color: white;
+    margin: 49px 10px;
+    font-size: 23px;
+}
+.footer-icon i:hover {
+	color:red;
+	transition:all 0.5s;
+}
+/*footer Section end*/
